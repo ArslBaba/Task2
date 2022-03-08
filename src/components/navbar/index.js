@@ -34,13 +34,13 @@ const Navbar = () => {
 
             <div className=' max-w-[974px] w-full h-[629px] bg-slate-50  mx-auto rounded-[12px]'>
                  
-                 <button className=' bg-small ml-[20px] mt-[16px] max-w-[11px] h-[11px] rounded-[50%]'></button>
-                 <button className=' bg-small ml-[11px] mt-[16px] max-w-[11px] h-[11px] rounded-[50%]'></button>
-                 <button className=' bg-small ml-[11px] mt-[16px] max-w-[11px] h-[11px] rounded-[50%]'></button>
+                 <button className=' bg-small xs:ml-0 smm:ml-5 mt-[16px] w-3 h-[11px] rounded-[50%]'></button>
+                 <button className=' bg-small ml-3 mt-[16px] w-3 h-[11px] rounded-[50%]'></button>
+                 <button className=' bg-small ml-3 smm:mr-0 xs:mr-2 mt-[16px] w-3 h-[11px] rounded-[50%]'></button>
             
-                < input  type="text" name="websiteUrl"  className='max-w-[645px] h-24px mt-[10px] ml-[78px] rounded-[4px] bg-url' ></input>    
+                < input  type="text" name="websiteUrl"  className='w-9/12 h-24px mt-[10px] xs:ml-0 smm:ml-12 rounded-[4px] bg-url' ></input>    
             
-                <input type=" " id='screen' className='max-w-[934px] md:w-full h-[580px] mt-[10px] ml-[15px] bg-url' ></input>
+                <input type=" " id='screen' className='max-w-4xl w-11/12 h-[580px] mt-[10px] xs:ml-4 sm:ml-9 bg-url' ></input>
             </div>
 
 
